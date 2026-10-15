@@ -1,0 +1,15 @@
+{
+  "name": "slidev-habeas-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export:pdf": "slidev export slides.md --output habeas-data.pdf",
+    "export:pptx": "slidev export slides.md --format pptx --output habeas-data.pptx"
+  },
+  "devDependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}
